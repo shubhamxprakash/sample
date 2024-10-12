@@ -12,9 +12,10 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-## load the GROQ And OpenAI API KEY 
-groq_api_key=os.getenv('GROQ_API_KEY')
-os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
+## load the GROQ And OpenAI API KEY gemini AIzaSyCluRcdogP4jrC7TFQkRf4Xg1fs6aenXOQ
+## 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
+groq_api_key=os.getenv('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')
+os.environ["AIzaSyCluRcdogP4jrC7TFQkRf4Xg1fs6aenXOQ"]=os.getenv("AIzaSyCluRcdogP4jrC7TFQkRf4Xg1fs6aenXOQ")
 
 st.title("Gemma Model Document Q&A")
 
